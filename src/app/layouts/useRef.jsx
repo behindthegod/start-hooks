@@ -8,6 +8,7 @@ import PrevStateExample from "../components/examples/useRef/prevState";
 import ProgrammableActionsExample from "../components/examples/useRef/programmableActions";
 import RenderCountExample from "../components/examples/useRef/renderCount";
 import UseRefExercise from "../components/exercises/useRefExercise";
+import BlockChange from "../components/examples/useRef/blockChange";
 const UseRefExample = () => {
     return (
         <>
@@ -33,6 +34,7 @@ const UseRefExample = () => {
                 <RenderCountExample />
                 <PrevStateExample />
                 <ProgrammableActionsExample />
+                <UseRefExercise/>
             </div>
             <Divider />
             <div>
