@@ -20,7 +20,8 @@ const UseRefExercise = () => {
                 <li>Изменится содержимое блока на &quot;text&quot;</li>
                 <li>высота и ширина станут равны 150 и 80 соответственно</li>
             </ul>
-            <div ref={blockRef}
+            <div
+                ref={blockRef}
                 className="bg-primary d-flex flex-row justify-content-center align-items-center rounded"
                  style={{
                     height: 40,
@@ -30,7 +31,7 @@ const UseRefExercise = () => {
             >
                 <small>Блок</small>
             </div>
-            <button className='btn btn-primary' onChange={handleClick}>изменить</button>
+            <button className='btn btn-primary' onClick={handleClick}>изменить</button>
         </CollapseWrapper>
     );
 };
