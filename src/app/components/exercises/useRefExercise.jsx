@@ -6,7 +6,8 @@ const UseRefExercise = () => {
     const handleClick = () => {
         blockRef.current.style.height = "150px";
         blockRef.current.style.width = "80px";
-        blockRef.current.style.textContent = "text";
+        blockRef.current.textContent = "text";
+        console.log('rrrrr')
     }
 
     return (
